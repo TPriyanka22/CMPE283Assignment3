@@ -140,5 +140,14 @@ scripts/config --disable SYSTEM_REVOCATION_KEYS<br/>
 
     ● Open a new ternminal from the instance and keep the ubuntu terminal handy to test the cpuid leaf nodes
   
-      In terminal where is ubuntu is installed enter the following command:
-     
+      In terminal where is ubuntu is installed create the following test script with filename="testing_cpuid.sh")
+  
+      #!/bin/bash
+
+      for i in {0..76}
+      do
+          echo "EXIT $i"
+          cpuid -l $1 -s $i
+      done
+    
+     ● To test the functionality for %eax=0x4ffffffe
