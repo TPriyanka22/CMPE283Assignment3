@@ -22,25 +22,22 @@ Boot disk : 100GB
 
 ● Add extra capabilities as per the requirement, here add enable nested virtualization before creating the instance.
 
-<img width="1438" alt="Screenshot 2022-12-04 at 1 57 50 AM" src="https://user-images.githubusercontent.com/111544172/205783070-0ae80660-94f6-4c25-9f8f-ee921c7b2fa8.png">
+<img width="1440" alt="Screenshot 2022-12-11 at 10 08 10 AM" src="https://user-images.githubusercontent.com/111544172/206932137-8a22fcf9-9a11-43c2-a766-3b35ee389ad3.png">
+
 
 ● Click on the SSH on the newly created instance like below:
 
-<img width="1438" alt="Screenshot 2022-12-04 at 2 06 42 AM" src="https://user-images.githubusercontent.com/111544172/205786523-e1202c8a-31a9-489f-920b-2fa27e198cf4.png">
+<img width="1440" alt="Screenshot 2022-12-11 at 10 08 40 AM" src="https://user-images.githubusercontent.com/111544172/206932252-7692822d-add5-4f23-a552-7e18a4808d05.png">
+
 
 ● To check the configuration use the command - 'df -h'
 
 <img width="897" alt="Screenshot 2022-12-04 at 2 17 05 AM" src="https://user-images.githubusercontent.com/111544172/205786819-c64cc9b0-1b69-4618-bb28-2456f34b316e.png">
 
 
-● generate the public key by using the command 'ssh-keygen'
+● generate the public key by using the command 'ssh-keygen' and get the public key and add in the github account where linux code has been forked.
 
 <img width="892" alt="Screenshot 2022-12-04 at 2 56 36 AM" src="https://user-images.githubusercontent.com/111544172/205809044-5259752b-7c5e-4b22-b5f3-43e36657a75d.png">
-
-● Get the public key and add in the github account where linux code has been forked.
-
-<img width="892" alt="Screenshot 2022-12-04 at 3 13 00 AM" src="https://user-images.githubusercontent.com/111544172/205809842-6b9efa15-cdd2-4eb9-b29a-70e0f58a27ee.png">
-
 
 ● Clone the linux repository here:
 
