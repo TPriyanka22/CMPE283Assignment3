@@ -170,7 +170,7 @@ scripts/config --disable SYSTEM_REVOCATION_KEYS<br/>
 
 <img width="1440" alt="Screenshot 2022-12-11 at 12 28 24 PM" src="https://user-images.githubusercontent.com/111544172/206939332-1937a2d8-d5e3-4c1b-b18c-f051f4ae9657.png">
 
- ● To test the functionality for %eax=0x4fffffff run the command --> bash testing_cpuid.sh -0x4fffffff in the terminal where ubuntu is installed.
+     ● To test the functionality for %eax=0x4fffffff run the command --> bash testing_cpuid.sh -0x4fffffff in the terminal where ubuntu is installed.
  
  <img width="1440" alt="Screenshot 2022-12-11 at 12 29 07 PM" src="https://user-images.githubusercontent.com/111544172/206939427-46ffb3df-867c-427a-a42f-c5b4d8d352a8.png">
 
@@ -180,6 +180,55 @@ scripts/config --disable SYSTEM_REVOCATION_KEYS<br/>
 
 <img width="1440" alt="Screenshot 2022-12-11 at 12 29 38 PM" src="https://user-images.githubusercontent.com/111544172/206939449-4aa600a1-f3ca-4585-bc09-844c0be035a2.png">
 
+     ● In new terminal - run the command --> sudo dmesg
+  
+<img width="1440" alt="Screenshot 2022-12-11 at 12 30 06 PM" src="https://user-images.githubusercontent.com/111544172/206939516-ba66b1de-bb05-4dfd-8b35-b60aba301c82.png">
+  
+<img width="1440" alt="Screenshot 2022-12-11 at 12 30 16 PM" src="https://user-images.githubusercontent.com/111544172/206939567-73b808a0-4c26-4878-8704-4c7167734c75.png">
+
+<img width="1440" alt="Screenshot 2022-12-11 at 12 30 26 PM" src="https://user-images.githubusercontent.com/111544172/206939583-04dcca48-d06e-421a-bf44-2a33135c68c1.png">
+
+<img width="1440" alt="Screenshot 2022-12-11 at 12 30 34 PM" src="https://user-images.githubusercontent.com/111544172/206939596-d8f71db7-f089-45c6-b986-bca6d8e8cb16.png">
+  
+<img width="1440" alt="Screenshot 2022-12-11 at 12 30 39 PM" src="https://user-images.githubusercontent.com/111544172/206939619-717488c5-a47e-4adb-b1ac-c232eb12f913.png">
+
+<img width="1440" alt="Screenshot 2022-12-11 at 12 30 45 PM" src="https://user-images.githubusercontent.com/111544172/206939637-373e33b0-1f10-4cdf-ad0f-e0ea01d1fc7e.png">
+
+<img width="1440" alt="Screenshot 2022-12-11 at 12 30 49 PM" src="https://user-images.githubusercontent.com/111544172/206939681-1bc8855f-a7ef-44ee-80b0-fea213622f54.png">
+  
+## Question 3:
+Comment on the frequency of exits – does the number of exits increase at a stable rate? Or are there 
+more exits performed during certain VM operations? Approximately how many exits does a full VM 
+boot entail?
+
+The number of exits for HLT(10) and CPUID(12) increases at a consistent rate as shown below:
+  
+<img width="1440" alt="Screenshot 2022-12-11 at 12 41 16 PM" src="https://user-images.githubusercontent.com/111544172/206940918-1b74176b-072f-44fc-822b-c3d7b0757d19.png">
+
+<img width="1440" alt="Screenshot 2022-12-11 at 12 41 59 PM" src="https://user-images.githubusercontent.com/111544172/206940925-279c2a4d-0f6b-4d39-868e-0461cdbc5160.png">
+
+ ## Question 4:
+Of the exit types defined in the SDM, which are the most frequent? Least?
+  
+| EXIT | Frequency| 
+| :-----: | :---: | 
+|  30 | 1220824   |
+|  49 | 343655   |
+|  28 | 218353   |
+|  10 | 117367   |
+|  32 | 53512   |
+|  48 | 13960   |
+|  1 | 25927   |
+|  7 | 17125   |
+|  12 | 15044   |
+|  31 | 3563   |
+|  0 | 11   |
+|  54 | 6   |
+|  29 | 1  |
+  
+
+
+  
 
 
      
