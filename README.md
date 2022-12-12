@@ -210,7 +210,7 @@ The number of exits for HLT(10) and CPUID(12) increases at a consistent rate as 
  ## Question 4:
 Of the exit types defined in the SDM, which are the most frequent? Least?
   
-| EXIT | Frequency| 
+| EXIT Type | Frequency| 
 | :-----: | :---: | 
 |  30 | 1220824   |
 |  49 | 343655   |
@@ -226,7 +226,9 @@ Of the exit types defined in the SDM, which are the most frequent? Least?
 |  54 | 6   |
 |  29 | 1  |
   
+Listed above are the most frequent to least frequent exit types, as seen in the above screenshots. 
 
+Here EXIT(30) --> Most frequent , where as EXIT(29) --> least frequent.
 
   
 
