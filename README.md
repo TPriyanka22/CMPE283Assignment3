@@ -104,7 +104,7 @@ scripts/config --disable SYSTEM_REVOCATION_KEYS<br/>
   
     sudo rmmod kvm_intel
     sudo rmmod kvm
-    sudo modprode kvm
+    sudo modprobe kvm
     sudo modprobe kvm_intel
   
   
