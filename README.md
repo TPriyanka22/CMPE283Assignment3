@@ -150,4 +150,39 @@ scripts/config --disable SYSTEM_REVOCATION_KEYS<br/>
           cpuid -l $1 -s $i
       done
     
-     ● To test the functionality for %eax=0x4ffffffe
+     ● To test the functionality for %eax=0x4ffffffe run the command --> bash testing_cpuid.sh -0x4ffffffe in the terminal where ubuntu is installed.
+     
+<img width="1440" alt="Screenshot 2022-12-11 at 12 26 46 PM" src="https://user-images.githubusercontent.com/111544172/206938782-d37b5d75-32bf-421b-aca4-48e0a059528f.png">
+
+ <img width="1440" alt="Screenshot 2022-12-11 at 12 26 53 PM" src="https://user-images.githubusercontent.com/111544172/206938799-a3ef2e27-2f5d-42c6-adfe-d0e009acda02.png">
+
+ <img width="1440" alt="Screenshot 2022-12-11 at 12 27 07 PM" src="https://user-images.githubusercontent.com/111544172/206938842-e16cdaab-75cc-4bfb-ad39-fc27711a0e5d.png">
+     
+<img width="1440" alt="Screenshot 2022-12-11 at 12 27 14 PM" src="https://user-images.githubusercontent.com/111544172/206938856-fd892154-604a-4c14-ba49-c8330a446716.png">
+
+<img width="1440" alt="Screenshot 2022-12-11 at 12 27 20 PM" src="https://user-images.githubusercontent.com/111544172/206938865-74e1314e-e2fa-464c-a9db-2f5ae26907ad.png">
+
+     ● In new terminal - run the command --> sudo dmesg
+     
+<img width="1440" alt="Screenshot 2022-12-11 at 12 28 11 PM" src="https://user-images.githubusercontent.com/111544172/206939318-f204dc65-39ac-44f8-b4af-f557a7f4b1ef.png">
+
+<img width="1440" alt="Screenshot 2022-12-11 at 12 28 19 PM" src="https://user-images.githubusercontent.com/111544172/206939327-d82ed485-6e74-45b6-9919-df35d2bc855c.png">
+
+<img width="1440" alt="Screenshot 2022-12-11 at 12 28 24 PM" src="https://user-images.githubusercontent.com/111544172/206939332-1937a2d8-d5e3-4c1b-b18c-f051f4ae9657.png">
+
+ ● To test the functionality for %eax=0x4fffffff run the command --> bash testing_cpuid.sh -0x4fffffff in the terminal where ubuntu is installed.
+ 
+ <img width="1440" alt="Screenshot 2022-12-11 at 12 29 07 PM" src="https://user-images.githubusercontent.com/111544172/206939427-46ffb3df-867c-427a-a42f-c5b4d8d352a8.png">
+
+<img width="1440" alt="Screenshot 2022-12-11 at 12 29 15 PM" src="https://user-images.githubusercontent.com/111544172/206939434-0c51ef5a-32ce-4f39-b40e-c886a8c8fe8a.png">
+
+<img width="1440" alt="Screenshot 2022-12-11 at 12 29 25 PM" src="https://user-images.githubusercontent.com/111544172/206939441-e14d31d3-2e2c-49f6-83b4-9606c79fb0b7.png">
+
+<img width="1440" alt="Screenshot 2022-12-11 at 12 29 38 PM" src="https://user-images.githubusercontent.com/111544172/206939449-4aa600a1-f3ca-4585-bc09-844c0be035a2.png">
+
+
+
+     
+     
+     
+     
